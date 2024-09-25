@@ -1,0 +1,38 @@
+body{
+font-family: Arial;
+display: flex;
+justify-content: center;
+    height: 100vh;
+ margin: 0;
+transition: background-color 0.3s ease;
+align-items: center;
+justify-content: center;
+
+
+}
+button{
+    padding: 10px 20px; 
+ font-size: 16x;
+cursor: pointer;
+border: none;
+background-color: #007bff;
+color: white;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+button:hover{
+background-color: #0056b3;
+}
+/*tema claro*/
+.light-thmeme{
+background-color: #f0f0f0;
+
+}
+
+
+
+/*tema escuro*/
+.dark-theme{
+    background-color: #333;
+ color: #fff;
+}
