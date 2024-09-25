@@ -11,7 +11,13 @@ if(body.classList.contains('dark-theme')){
 }
 
 });
+<button onclick="mudarCor()">Mudar Cor de Fundo</button>
 
+
+    function mudarCor() {
+        const corAtual = document.body.style.backgroundColor;
+        document.body.style.backgroundColor = corAtual === 'black' ? 'white' : 'black';
+    }
 
 
 
