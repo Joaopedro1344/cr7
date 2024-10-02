@@ -15,17 +15,17 @@ button{
  font-size: 16x;
 cursor: pointer;
 border: none;
-background-color: #007bff;
-color: white;
+background-color: #202020;
+color: rgb(255, 255, 255);
 border-radius: 5px;
 transition: background-color 0.3s ease;
 }
 button:hover{
-background-color: #0056b3;
-}
+background-color: #1d1d1db9;
+} 
 /*tema claro*/
 .light-thmeme{
-background-color: #f0f0f0;
+background-color: #1f1f1fc7;
 
 }
 
@@ -33,11 +33,17 @@ background-color: #f0f0f0;
 
 /*tema escuro*/
 .dark-theme{
-    background-color: #333;
+    background-color: #1f1e1e;
  color: #fff;
 }
 body {
-    background-color: white; /* Cor de fundo inicial */
-    color: black; /* Cor do texto */
-    transition: background-color 0.5s; /* Transição suave */
+    background-color: white; 
+    color: rgb(109, 107, 107); 
+    transition: background-color 0.5s; 
+}
+
+
+
+.img{
+    width: 200px;
 }
